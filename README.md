@@ -13,6 +13,20 @@
 
 ## Ejecución
 
-- Clonar o descargar el repositorio
+Clonar o descargar el repositorio
 ```sh
-git c
+git clone https://github.com/dalgomdtx/memory-game-html-js.git
+```
+
+Acceder a la carpeta
+```sh
+cd memory-game-html-js
+```
+
+Abrir el archivo `index.html` en su navegador favorito.
+
+---
+
+<p align="center">⭐️ From <a href="https://github.com/dalgomdtx">@dalgomdtx</a></p>
+
+
