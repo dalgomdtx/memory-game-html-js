@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="./resoucers/style.css">
+  <link rel="shortcut icon" href="./resoucers/time.ico" type="image/x-icon">
+</head>
+<body>
+  <main>
+    <section class="section1">
+      <h1>Juego de Memoria</h1>
+      <table>
+        <tr>
+          <td><button id="0" onclick="tap(0)"></button></td>
+          <td><button id="1" onclick="tap(1)"></button></td>
+          <td><button id="2" onclick="tap(2)"></button></td>
+          <td><button id="3" onclick="tap(3)"></button></td>
+        </tr>
+        <tr>
+          <td><button id="4" onclick="tap(4)"></button></td>
+          <td><button id="5" onclick="tap(5)"></button></td>
+          <td><button id="6" onclick="tap(6)"></button></td>
+          <td><button id="7" onclick="tap(7)"></button></td>
+        </tr>
+        <tr>
+          <td><button id="8" onclick="tap(8)"></button></td>
+          <td><button id="9" onclick="tap(9)"></button></td>
+          <td><button id="10" onclick="tap(10)"></button></td>
+          <td><button id="11" onclick="tap(11)"></button></td>
+        </tr>
+        <tr>
+          <td><button id="12" onclick="tap(12)"></button></td>
+          <td><button id="13" onclick="tap(13)"></button></td>
+          <td><button id="14" onclick="tap(14)"></button></td>
+          <td><button id="15" onclick="tap(15)"></button></td>
+        </tr>
+      </table>
+    </section>
+    <section class="section2">
+      <h2 id="hits" class="stats">Aciertos: <br>0</h2>
+      <h2 id="time" class="stats">Tiempo: <br>0 segundos</h2>
+      <h2 id="move" class="stats">Movimientos: <br>0</h2>
+      <button class="reset" onclick="reset()">Reiniciar</button>
+    </section>
+  </main>
+  <footer>
+    <p><a href="https://github.com/dalgomdtx"><b>DalgomdtX</b></a> &copy; 2022</p>
+  </footer>
+
+  <script src="./resoucers/main.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
